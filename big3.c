@@ -1,6 +1,5 @@
 #include <stdio.h>
-void biggest3() {
-    int a, b, c;
+int biggest3(int a, int b, int c) {
 
     // Finding max using compound expressions
     if (a >= b && a >= c)
